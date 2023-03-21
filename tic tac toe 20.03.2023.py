@@ -2,9 +2,13 @@ from tkinter import *
 from tkinter import messagebox
 
 root = Tk()
-root.title('My first game')
+root.title('first game')
+##root.iconbitmap
 clicked = True
 count = 0
+
+
+
 
 
 def disable_all_buttons():
@@ -69,7 +73,7 @@ def checkifwon():
         disable_all_buttons()
 
     
-    elif b4["text"] == "X" and b5["text"] =="X" and b9["text"] == "X":
+    elif b1["text"] == "X" and b5["text"] =="X" and b9["text"] == "X":
         b1.config(bg="green")
         b5.config(bg="green")
         b9.config(bg="green")
